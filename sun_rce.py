@@ -1,5 +1,5 @@
 #encoding=utf-8
-#由@破壳雏鸟编写，https://github.com/pkcn445
+#由@破壳雏鸟编写，https://github.com/pkcn445/sun_rce
 """
 可能存在漏洞的向日葵版本：
 
@@ -104,7 +104,7 @@ def main():
                               i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111
                               9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111
 
-                          此时一只卑微的代码狗希望大佬可以给个star。@破壳雏鸟：https://github.com/pkcn445
+                          此时一只卑微的代码狗希望大佬可以给个star。@破壳雏鸟：https://github.com/pkcn445/sun_rce
     """)
     parses = argparse.ArgumentParser(description="-ip IP地址 -url 探测到的url")
     parses.add_argument("-ip",default=None,help="-ip IP地址")
