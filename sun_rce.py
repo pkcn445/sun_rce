@@ -1,5 +1,5 @@
 #encoding=utf-8
-#由@破壳雏鸟编写，https://github.com/pkcn445/sun_rce
+#由@破壳雏鸟重写，https://github.com/pkcn445/sun_rce
 """
 代码参考了 @东方有鱼名为咸 大佬，仓库地址：https://github.com/Mr-xn/sunlogin_rce
 可能存在漏洞的向日葵版本：
