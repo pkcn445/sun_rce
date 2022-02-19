@@ -107,7 +107,7 @@ def main():
 
                           此时一只卑微的代码狗希望大佬可以给个star。@破壳雏鸟：https://github.com/pkcn445/sun_rce
     """)
-    parses = argparse.ArgumentParser(description="-ip IP地址 -url 探测到的url")
+    parses = argparse.ArgumentParser(description="要先用-ip进行扫描才行！\n要先用-ip进行扫描才行！\n要先用-ip进行扫描才行！\n-ip IP地址 -url 探测到的url")
     parses.add_argument("-ip",default=None,help="-ip IP地址")
     parses.add_argument("-url",default=None,help="-url 探测到的url地址")
     rst = vars(parses.parse_args())
