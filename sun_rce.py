@@ -41,7 +41,7 @@ def execute_cmd(base_url,cid,cmd):
         print("\n"+r.text.encode("ISO-8859-1").decode("gbk"))
 def scan(host:str):
     url_list = []
-    for i in range(50600,50736):
+    for i in range(40000,65536):
         url = "http://"+host+":"+str(i)+"/cgi-bin/rpc?action=verify-haras"
         url_list.append(url)
     async def run(url):
